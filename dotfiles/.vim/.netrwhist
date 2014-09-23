@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/var/lib/irods/iRODS/server/log'
+let g:netrw_dirhist_2='/home/sk/git/irods_resource_deb'
+let g:netrw_dirhist_3='/home/sk/git/irods_resource_plugin_isilon'
+let g:netrw_dirhist_4='/home/sk/7f38fd0d.1409648343'
+let g:netrw_dirhist_5='/home/sk/git/irods_test/1_0'
+let g:netrw_dirhist_6='/etc/ld.so.conf.d'
+let g:netrw_dirhist_7='/usr/share/libisilon'
+let g:netrw_dirhist_8='/home/sk/git/irods_resource_plugin_isilon/packaging'
