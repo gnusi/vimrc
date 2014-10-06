@@ -12,7 +12,16 @@ let g:miniBufExplMapWindowNavArrows = 1
 let g:miniBufExplMapCTabSwitchBufs = 1
 let g:miniBufExplModSeltarget = 1
 
-noremap <C-S-w> :MBEbn<CR>
-noremap <C-S-e> :MBEbp<CR>
+noremap <C-S-e> :MBEbn<CR>
+noremap <C-S-w> :MBEbp<CR>
+
+nmap <silent> <A-Up> :wincmd k<CR>
+nmap <silent> <A-Down> :wincmd j<CR>
+nmap <silent> <A-Left> :wincmd h<CR>
+nmap <silent> <A-Right> :wincmd l<CR>
 
 set tags=./tags;/
+
+colorscheme desert
+
+nmap <F7> :make
