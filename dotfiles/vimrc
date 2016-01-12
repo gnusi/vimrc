@@ -10,6 +10,10 @@ let g:miniBufExplMapWindowNavArrows = 1
 let g:miniBufExplMapCTabSwitchBufs = 1
 let g:miniBufExplModSeltarget = 1
 
+" enable tags for CtrlP
+let g:ctrlp_extensions = ['tag']
+let g:ctrlp_custom_ignore = 'build'
+
 " convinient navigation between windows
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>

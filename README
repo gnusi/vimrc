@@ -13,3 +13,5 @@ List of used plugins:
 5. A (https://github.com/vim-scripts/a.vim)
 A few of quick commands to swtich between source files and header files quickly.
 
+6. vim-errormarker (https://github.com/mh21/errormarker.vim)
+Highlights and sets error markers for lines with compile errors
