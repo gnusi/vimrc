@@ -16,10 +16,6 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
-" command-t mappings
-let g:CommandTTagIncludeFilenames = 1
-nnoremap <Leader>g :CommandTTag<CR>
-
 " zz - Closes all but current buffer
 nmap <silent> zz :BufOnly<CR>
 
