@@ -33,4 +33,11 @@ set tabstop=4
 set softtabstop=4
 set expandtab
 
+" Highliht special chars
+set list
+set listchars=eol:$,tab:>-,trail:.,extends:>,precedes:<
+
+" Highlist search results
+set hlsearch
+
 nmap <F7> :make
