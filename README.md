@@ -1,5 +1,5 @@
 Set of plugins and setting for VIM
-================================================================================
+==================================
 
 List of used plugins:
 1. CtrlP (http://kien.github.io/ctrlp.vim)
@@ -15,3 +15,11 @@ A few of quick commands to swtich between source files and header files quickly.
 
 6. vim-errormarker (https://github.com/mh21/errormarker.vim)
 Highlights and sets error markers for lines with compile errors
+
+Install
+==================================
+```bash
+git clone https://github.com/gnusi/vimrc.git vimrc
+cd vimrc
+./install.sh
+```
